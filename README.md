@@ -24,3 +24,4 @@ Additionally, the system facilitates the management of the employee list, enabli
 Furthermore, users can easily view Secret Santa records, including each employee's assigned Secret Santa and relevant contact information. Automated email notifications are sent out to participants on December 26th, enhancing the excitement and mystery of the Secret Santa tradition.
 
 Powered by a combination of HTML, CSS, JavaScript, Node.js, MongoDB, Bootstrap, and React.js, our Secret Santa Management System offers a robust and efficient solution for organizing memorable and enjoyable Secret Santa exchanges. Whether you're a small team or a large organization, our application is designed to simplify the holiday season and bring festive cheer to your workplace.
+![Secret Santa Image](secret_santa_image.jpg)
