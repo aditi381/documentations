@@ -1,5 +1,6 @@
 # Table of contentes
 [Abstract](#Abstract)
+
 ## Abstract
 
 The challenge of fostering transparency and engagement during the office Christmas celebration arose last year when participants encountered difficulty in determining their Secret Santa due to the anonymous distribution of chits containing names. In response, Rashmi Ma'am tasked the team with finding a solution. After considering various proposals, the decision was made to develop a dedicated website for managing Secret Santa exchanges. Under the guidance of Karandeep Sir, Aman, Aditi, and Irfan were entrusted with implementing this solution.
