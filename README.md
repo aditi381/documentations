@@ -1,4 +1,12 @@
 # Secret Santa Management System
+# Table of Contents
+
+1. [Abstract](#abstract)
+2. [Introduction](#introduction)
+3. [Identifying the Need](#identifying-the-need)
+4. [Implementing the Solution](#implementing-the-solution)
+5. [Conclusion](#conclusion)
+
 
 ## Abstract
 
