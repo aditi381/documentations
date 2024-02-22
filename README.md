@@ -8,9 +8,10 @@
 5. [Conclusion](#conclusion)
 
 
-# Abstract
+## Abstract
 
-The abstract discusses the challenges faced during last year's office Christmas celebration, leading to the decision to create a dedicated website for managing Secret Santa exchanges. It highlights the key people involved and outlines the main goals and features of the website, emphasizing its role in improving transparency and engagement.
+The abstract addresses the challenges faced during last year's office Christmas celebration, leading to the development of a dedicated website for Secret Santa management. It highlights the key individuals involved in conceiving and executing the solution. Additionally, it outlines the primary goals and functionalities of the website, emphasizing its role in improving transparency and engagement among participants.
+
 
 # Introduction
 
