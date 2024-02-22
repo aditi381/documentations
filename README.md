@@ -1,2 +1,2 @@
 # documentations
-***aditi singh
+[Table of content](#table-of-contents)
