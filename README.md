@@ -37,28 +37,56 @@ That's why we decided to create our Secret Santa Management System. It's designe
 
 # Implementing the Solution
 
-## 1. Admin Login
-- The admin logs into the system using their credentials.
-- The system verifies the admin's credentials with the database.
-- Upon successful verification, the system redirects the admin to the dashboard.
+# Admin Registration
 
-## 2. Generate QR Codes
-- The admin accesses the QR code generation feature.
-- The system fetches the employee list from the database and displays it to the admin.
-- The admin selects an employee and generates a QR code for them.
-- The system generates the QR code for the selected employee and allows the admin to download it.
+- **New admin visit the registration page:** When a new admin wants to register, they visit the registration page.
+- **Provide necessary details:** The admin provides all the required information such as name, email, and password.
+- **Validate information:** The system validates the provided information to ensure it meets the required criteria.
+- **Create new admin account:** After successful validation, the system creates a new admin account.
+- **Admin directed to login page:** Once the account is created, the admin is redirected to the login page to access the system.
 
+# Admin Login
 
-## 3. Send Email Reminders
-- The admin triggers the email reminder feature.
-- The system retrieves the Secret Santa assignments from the database.
-- Using the assignment information, the system composes emails with the Secret Santa assignments.
-- The system sends the emails containing the Secret Santa assignments to the respective employees.
+- **Admin enters login credentials:** The admin enters their registered email and password to log in.
+- **Validate login credentials:** The system validates the entered credentials against the stored data.
+- **Redirect to home page upon successful login:** If the credentials are correct, the admin is redirected to the home page.
 
-## 4. View Secret Santa Records
-- The admin accesses the feature to view Secret Santa records.
-- The system fetches the Secret Santa assignments from the database.
-- The system displays the Secret Santa records to the admin.
+# Home Page
+
+- **Choose from various options:** On the home page, the admin can choose from various options such as accessing QR code generation, managing employee lists, viewing Secret Santa records, etc.
+
+# QR Code Generation
+
+- **Admins access QR code generation:** Admins can access the feature to generate QR codes for Secret Santa assignments.
+- **Generate QR code for each employee:** The system generates a unique QR code for each employee participating in the Secret Santa exchange.
+- **Save QR codes in a document file:** The generated QR codes are saved in a document file for distribution.
+- **Distribute QR codes to employees:** Admins distribute the QR codes to employees for them to scan and reveal their Secret Santa assignments.
+- **QR code button for each employee:** Each employee has a QR code button associated with their name.
+
+# Employee Management
+
+- **Admins manage employee list:** Admins can add, delete, or update employee details as needed.
+- **Add, delete, or update employee details:** Admins have the capability to modify the participant roster to ensure its accuracy.
+
+# Viewing Secret Santa Records
+
+- **Admins view Secret Santa records:** Admins can access the feature to view Secret Santa assignments.
+- **Display Secret Santa assignments:** The system displays the Secret Santa assignments to the admin for reference.
+
+# Email Management
+
+- **System sends email notifications on December 26th:** Automated email notifications containing Secret Santa assignments are sent out to participants on December 26th.
+- **Contain assigned Secret Santa details:** The email contains the assigned Secret Santa details for each participant.
+- **Disclose assigned Secret Santa details via email:** Participants receive their Secret Santa assignments via email for added convenience.
+
+# Technologies Used
+
+- **HTML, CSS, JavaScript:** Frontend technologies for building the user interface.
+- **Node.js:** Backend technology for server-side development.
+- **MongoDB:** Database for storing application data.
+- **Bootstrap:** Frontend framework for responsive design.
+- **React.js:** JavaScript library for building user interfaces.
+
 - 
 # PlantUML of Secret Santa Website
 ![Screenshot 2024-02-22 215924](https://github.com/aditi381/documentations/assets/139480824/396b44eb-8a67-4e31-a5e7-1bacc2c6ef0c)
