@@ -64,7 +64,18 @@ Rashmi Chaudhary Ma'am, saw these problems and realized we needed a better way t
 - **View/Add/Delete Employee List:** Admins can view, add, or delete employee details as needed.
 - **Manage employee details:** Admins have the capability to modify the participant roster to ensure its accuracy.
 
-### Viewing Secret
+### Viewing Secret Santa Records
+
+- **Admins view Secret Santa records:** Admins can access the feature to view Secret Santa assignments.
+- **Display Secret Santa assignments:** 
+
+## PlantUML of Secret Santa Website
+
+![PlantUML of Secret Santa Website](https://github.com/aditi381/documentations/assets/139480824/396b44eb-8a67-4e31-a5e7-1bacc2c6ef0c)
+
+## Conclusion
+
+In conclusion, the Secret Santa Management System offers a modern solution for organizing Secret Santa events in organizations. By automating tasks and improving user experience, the system fosters camaraderie and makes the holiday season more enjoyable. Its simplicity and effectiveness make it suitable for organizations of all sizes.
 
 
 
