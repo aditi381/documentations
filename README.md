@@ -20,11 +20,11 @@ Overall, the website was developed with the intention of making our office Chris
 
 ## Introduction
 
-Welcome to the Secret Santa Management System, an innovative solution designed to streamline the process of organizing Secret Santa events within your organization. The holiday season is a time of joy and camaraderie, and the tradition of Secret Santa adds an extra element of excitement to workplace celebrations. However, coordinating Secret Santa exchanges manually can be cumbersome and prone to errors, leading to confusion and frustration among participants.
+Welcome to the Secret Santa Website, an innovative solution designed to streamline the process of organizing Secret Santa events within your organization. The holiday season is a time of joy and camaraderie, and the tradition of Secret Santa adds an extra element of excitement to workplace celebrations. However, coordinating Secret Santa exchanges manually can be cumbersome and prone to errors, leading to confusion and frustration among participants.
 
-To address these challenges and ensure a seamless Secret Santa experience for everyone involved, we have developed the Secret Santa Management System. This web-based application offers a user-friendly interface and a range of features designed to simplify the entire process, from participant registration to gift distribution. By leveraging modern technology and best practices in event management, our system aims to make your office Christmas celebration more enjoyable, organized, and inclusive than ever before.
+To address these challenges and ensure a seamless Secret Santa experience for everyone involved, we have developed the Secret Santa Website. This web-based application offers a user-friendly interface and a range of features designed to simplify the entire process, from participant registration to gift distribution. By leveraging modern technology and best practices in event management, our website aims to make your office Christmas celebration more enjoyable, organized, and inclusive than ever before.
 
-In this introduction, we will explore the key features of the Secret Santa Management System and how they contribute to creating a memorable and stress-free holiday experience for your team. Whether you're a small startup or a large corporation, our system is designed to meet your Secret Santa event management needs and enhance the festive spirit in your workplace. Let's dive in and discover how our system can transform your office Christmas celebration for the better.
+In this introduction, we will explore the key features of the Secret Santa Website and how they contribute to creating a memorable and stress-free holiday experience for your team. Whether you're a small startup or a large corporation, our website is designed to meet your Secret Santa event management needs and enhance the festive spirit in your workplace. Let's dive in and discover how our website can transform your office Christmas celebration for the better.
 
 ## Identifying the Need
 
@@ -72,7 +72,7 @@ Rashmi Chaudhary Ma'am, saw these problems and realized we needed a better way t
 
 ## Testing
 
-The testing of the Secret Santa Management System will be conducted using Selenium to ensure the functionality and reliability of the system across different web browsers and platforms.
+The testing of the Secret Santa Website will be conducted using Selenium to ensure the functionality and reliability of the website across different web browsers and platforms.
 
 ## PlantUML of Secret Santa Website
 
@@ -80,7 +80,10 @@ The testing of the Secret Santa Management System will be conducted using Seleni
 
 ## Conclusion
 
-In conclusion, the Secret Santa Management System offers a modern solution for organizing Secret Santa events in organizations. By automating tasks and improving user experience, the system fosters camaraderie and makes the holiday season more enjoyable. Its simplicity and effectiveness make it suitable for organizations of all sizes.
+In conclusion, the Secret Santa Website offers a modern solution for organizing Secret Santa events in organizations. By automating tasks and improving user experience, the website fosters camaraderie and makes the holiday season more enjoyable. Its simplicity and effectiveness make it suitable for organizations of all sizes.
+
+
+
 
 
 
