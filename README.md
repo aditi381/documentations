@@ -46,6 +46,7 @@ That's why we decided to create our Secret Santa Management System. It's designe
 - The system fetches the employee list from the database and displays it to the admin.
 - The admin selects an employee and generates a QR code for them.
 - The system generates the QR code for the selected employee and allows the admin to download it.
+- ![View Secret Santa Records](secret_santa_records.png)
 
 ## 3. Send Email Reminders
 - The admin triggers the email reminder feature.
