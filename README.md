@@ -6,8 +6,9 @@
 2. [Introduction](#introduction)
 3. [Identifying the Need](#identifying-the-need)
 4. [Implementing the Solution](#implementing-the-solution)
-5. [PlantUML of Secret Santa Website](#plantuml-of-secret-santa-website)
-6. [Conclusion](#conclusion)
+5. [Testing](#testing)
+6. [PlantUML of Secret Santa Website](#plantuml-of-secret-santa-website)
+7. [Conclusion](#conclusion)
 
 ## Abstract
 
@@ -69,6 +70,10 @@ Rashmi Chaudhary Ma'am, saw these problems and realized we needed a better way t
 - **Admins view Secret Santa records:** Admins can access the feature to view Secret Santa assignments.
 - **Display Secret Santa assignments:** 
 
+## Testing
+
+The testing of the Secret Santa Management System will be conducted using Selenium to ensure the functionality and reliability of the system across different web browsers and platforms.
+
 ## PlantUML of Secret Santa Website
 
 ![PlantUML of Secret Santa Website](https://github.com/aditi381/documentations/assets/139480824/396b44eb-8a67-4e31-a5e7-1bacc2c6ef0c)
@@ -76,7 +81,6 @@ Rashmi Chaudhary Ma'am, saw these problems and realized we needed a better way t
 ## Conclusion
 
 In conclusion, the Secret Santa Management System offers a modern solution for organizing Secret Santa events in organizations. By automating tasks and improving user experience, the system fosters camaraderie and makes the holiday season more enjoyable. Its simplicity and effectiveness make it suitable for organizations of all sizes.
-
 
 
 
