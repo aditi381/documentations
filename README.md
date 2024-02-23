@@ -87,7 +87,7 @@ That's why we decided to create our Secret Santa Management System. It's designe
 - **Bootstrap:** Frontend framework for responsive design.
 - **React.js:** JavaScript library for building user interfaces.
 
-- 
+
 # PlantUML of Secret Santa Website
 ![Screenshot 2024-02-22 215924](https://github.com/aditi381/documentations/assets/139480824/396b44eb-8a67-4e31-a5e7-1bacc2c6ef0c)
 
