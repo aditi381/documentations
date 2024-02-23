@@ -4,8 +4,8 @@
 1. [Abstract](#abstract)
 2. [Introduction](#introduction)
 3. [Identifying the Need](#identifying-the-need)
-4. [Implementing the Solution](#implementing-the-solution)cret 
-5. [PlantUML of Secret Santa Website](#PlantUML of Secret Santa Website)
+4. [Implementing the Solution](#implementing-the-solution)
+5. [PlantUML of Secret Santa Website](#PlantUML-of-Secret-Santa-Website)
 6. [Conclusion](#conclusion)
 
 
@@ -47,8 +47,7 @@ That's why we decided to create our Secret Santa Management System. It's designe
 - The system fetches the employee list from the database and displays it to the admin.
 - The admin selects an employee and generates a QR code for them.
 - The system generates the QR code for the selected employee and allows the admin to download it.
--![View Secret Santa Records](![Uploading car.png…]()
-)
+
 
 ## 3. Send Email Reminders
 - The admin triggers the email reminder feature.
@@ -62,7 +61,7 @@ That's why we decided to create our Secret Santa Management System. It's designe
 - The system displays the Secret Santa records to the admin.
 - 
 # PlantUML of Secret Santa Website
-
+![Screenshot 2024-02-22 215924](https://github.com/aditi381/documentations/assets/139480824/396b44eb-8a67-4e31-a5e7-1bacc2c6ef0c)
 
 # Conclusion
 
