@@ -36,7 +36,28 @@ That's why we decided to create our Secret Santa Management System. It's designe
 
 # Implementing the Solution
 
-Here, we discuss how the Secret Santa Management System was developed. Under the guidance of Karandeep Sir, Aman, Aditi, and Irfan led the development efforts using various technologies. The section highlights key features of the system and the development process.
+## 1. Admin Login
+- The admin logs into the system using their credentials.
+- The system verifies the admin's credentials with the database.
+- Upon successful verification, the system redirects the admin to the dashboard.
+
+## 2. Generate QR Codes
+- The admin accesses the QR code generation feature.
+- The system fetches the employee list from the database and displays it to the admin.
+- The admin selects an employee and generates a QR code for them.
+- The system generates the QR code for the selected employee and allows the admin to download it.
+
+## 3. Send Email Reminders
+- The admin triggers the email reminder feature.
+- The system retrieves the Secret Santa assignments from the database.
+- Using the assignment information, the system composes emails with the Secret Santa assignments.
+- The system sends the emails containing the Secret Santa assignments to the respective employees.
+
+## 4. View Secret Santa Records
+- The admin accesses the feature to view Secret Santa records.
+- The system fetches the Secret Santa assignments from the database.
+- The system displays the Secret Santa records to the admin.
+
 
 # Conclusion
 
