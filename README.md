@@ -33,44 +33,52 @@ We noticed some problems during our past office Christmas celebrations, especial
 Rashmi Chaudhary Ma'am, saw these problems and realized we needed a better way to manage our Secret Santa event. She tasked the January intern with finding a solution to this issue, and everyone came up with their own ideas. Among them, Aman's idea was chosen, and this task was assigned to Aman, Aditi, and Irfan.
 
 ## Implementing the Solution
+# Secret Santa Website Process
 
-### Admin Registration
+The Secret Santa Website facilitates various processes to ensure smooth operation and effective management of Secret Santa events within an organization. Here's a breakdown of each process:
 
-- **New admin visit the registration page:** When a new admin wants to register, they visit the registration page.
-- **Provide necessary details:** The admin provides all the required information such as name, email, and password.
-- **Validate information:** The system validates the provided information to ensure it meets the required criteria.
-- **Create new admin account:** After successful validation, the system creates a new admin account.
-- **Admin directed to login page:** Once the account is created, the admin is redirected to the login page to access the system.
+## Admin Registration
+1. **New admin visit the registration page:** New admins access the registration page to create an account.
+2. **Provide necessary details:** Admins provide required information such as name, email, and password.
+3. **Validate information:** The system validates the provided information.
+4. **Create new admin account:** Upon successful validation, a new admin account is created.
+5. **Admin directed to login page:** The admin is then redirected to the login page.
 
-### Admin Login
+## Admin Login
+1. **Admin enters login credentials:** Admins enter their registered email and password.
+2. **Validate login credentials:** The system validates the entered credentials.
+3. **Redirect to home page upon successful login:** Upon successful validation, admins are redirected to the home page.
 
-- **Admin enters login credentials:** The admin enters their registered email and password to log in.
-- **Validate login credentials:** The system validates the entered credentials against the stored data.
-- **Redirect to home page upon successful login:** If the credentials are correct, the admin is redirected to the home page.
+## Home Page
+1. **Choose from various options:** Admins can choose from various options available on the home page.
 
-### Home Page
+## QR Code Generation
+1. **Admins access QR code generation:** Admins access the feature to generate QR codes.
+2. **Generate QR code to become a Secret Santa:** QR codes are generated for each participant to become a Secret Santa.
+3. **Save QR codes in a document file:** Generated QR codes are saved in a document file.
+4. **Distribute QR codes to employees:** Admins distribute QR codes to employees.
+5. **QR code button for each employee:** Each employee has a QR code button associated with their name.
 
-- **Choose from various options:** On the home page, the admin can choose from various options such as accessing QR code generation, managing employee lists, viewing Secret Santa records, etc.
+## Employee Management
+1. **View/Add/Delete Employee List:** Admins can view, add, or delete employee details.
+2. **Manage employee details:** Admins can manage employee details as needed.
 
-### QR Code Generation
+## Viewing Secret Santa Records
+1. **View Secret Santa records:** Admins can view Secret Santa assignments.
 
-- **Admins access QR code generation:** Admins can access the feature to generate QR codes for Secret Santa assignments.
-- **Generate QR code for each employee:** The system generates a unique QR code for each employee participating in the Secret Santa exchange.
-- **Save QR codes in a document file:** The generated QR codes are saved in a document file for distribution.
-- **Distribute QR codes to employees:** Admins distribute the QR codes to employees for them to scan and reveal their Secret Santa assignments.
-- **QR code button for each employee:** Each employee has a QR code button associated with their name.
+## Email Management
+1. **System sends email notifications on December 26th:** Email notifications containing assigned Secret Santa details are sent.
+2. **Contain assigned Secret Santa details:** Email notifications contain assigned Secret Santa details.
+3. **Disclose assigned Secret Santa details via email:** Assigned Secret Santa details are disclosed via email.
 
-### Employee Management
-
-- **View/Add/Delete Employee List:** Admins can view, add, or delete employee details as needed.
-- **Manage employee details:** Admins have the capability to modify the participant roster to ensure its accuracy.
-
-### Viewing Secret Santa Records
-
- **View Secret Santa records:** Admins can view Secret Santa assignments and manage them as needed.
- ## Email Management
-
-- **System sends email notifications:** On December 26th, the system sends email notifications containing assigned Secret Santa details to participants.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Node.js for server-side operations
+- MongoDB for database management
+- Bootstrap for front-end design
+- React.js for building user interfaces
 
 ## Testing
 
