@@ -68,6 +68,9 @@ Rashmi Chaudhary Ma'am, saw these problems and realized we needed a better way t
 ### Viewing Secret Santa Records
 
  **View Secret Santa records:** Admins can view Secret Santa assignments and manage them as needed.
+ ## Email Management
+
+- **System sends email notifications:** On December 26th, the system sends email notifications containing assigned Secret Santa details to participants.
 
 ## Testing
 
