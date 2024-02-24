@@ -76,7 +76,7 @@ The testing of the Secret Santa Website will be conducted using Selenium to ensu
 
 ## PlantUML of Secret Santa Website
 
-![PlantUML of Secret Santa Website](https://github.com/aditi381/documentations/assets/139480824/396b44eb-8a67-4e31-a5e7-1bacc2c6ef0c)
+![image](https://github.com/aditi381/documentations/assets/139480824/0b62544b-41cb-4ac6-8196-d81f28e3a2f4)
 
 ## Conclusion
 
