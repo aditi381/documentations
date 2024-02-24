@@ -67,8 +67,7 @@ Rashmi Chaudhary Ma'am, saw these problems and realized we needed a better way t
 
 ### Viewing Secret Santa Records
 
-- **Admins view Secret Santa records:** Admins can access the feature to view Secret Santa assignments.
-- **Display Secret Santa assignments:** 
+ **View Secret Santa records:** Admins can view Secret Santa assignments and manage them as needed.
 
 ## Testing
 
