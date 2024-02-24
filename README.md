@@ -5,7 +5,7 @@
 1. [Abstract](#abstract)
 2. [Introduction](#introduction)
 3. [Identifying the Need](#identifying-the-need)
-4. [Implementing the Solution](#implementing-the-solution)
+4. [Secret Santa Website Process](#Secret Santa Website Process)
 5. [Testing](#testing)
 6. [PlantUML of Secret Santa Website](#plantuml-of-secret-santa-website)
 7. [Conclusion](#conclusion)
@@ -32,8 +32,8 @@ We noticed some problems during our past office Christmas celebrations, especial
 
 Rashmi Chaudhary Ma'am, saw these problems and realized we needed a better way to manage our Secret Santa event. She tasked the January intern with finding a solution to this issue, and everyone came up with their own ideas. Among them, Aman's idea was chosen, and this task was assigned to Aman, Aditi, and Irfan.
 
-## Implementing the Solution
-# Secret Santa Website Process
+
+## Secret Santa Website Process
 
 The Secret Santa Website facilitates various processes to ensure smooth operation and effective management of Secret Santa events within an organization. Here's a breakdown of each process:
 
