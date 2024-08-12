@@ -1,11 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: git
-  description: git.com
+  name: example
+  description: example.com
   annotations:
-    gitlab.com/project-id: '60030582'
-
+    gitlab.com/project-id: 60030582
 spec:
   type: website
   lifecycle: production
