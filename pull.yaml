@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example
+  description: example.com
+  annotations:
+    github.com/project-slug: aditi381/aditi381
+spec:
+  type: website
+  lifecycle: production
+  owner: user:guest
+
