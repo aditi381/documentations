@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example
+  name: example-website
   description: example.com
   annotations:
-    gitlab.com/project-id: 60030582
+    gitlab.com/project-id: '60030582'
+    gitlab.com/project-slug: aditi
 spec:
   type: website
-  lifecycle: production
-  owner: user:guest
+  lifecycle: experimental
+  owner: user:guests
