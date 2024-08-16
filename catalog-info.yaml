@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: documentations
+  annotations:
+    github.com/project-slug: aditi381/documentations
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Aditi Singh
