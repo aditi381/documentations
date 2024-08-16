@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: prometheus
+  description: promethius.com
+  annotations:
+    prometheus.io/rule: value
+    prometheus.io/alert: value
+spec:
+  type: website
+  lifecycle: production
+  owner: user:guest
