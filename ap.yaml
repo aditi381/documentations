@@ -19,17 +19,12 @@ spec:
     openapi: 3.0.0
     info:
       title: Swagger Petstore
-      description: This is a sample server for a pet store.
       version: 1.0.0
-    servers:
-      - url: http://petstore.swagger.io/v1
     paths:
       /pets:
         get:
           summary: List all pets
           operationId: listPets
-          tags:
-            - pets
           responses:
             '200':
               description: A paged array of pets
@@ -38,17 +33,5 @@ spec:
                   schema:
                     type: array
                     items:
-                      type: object
-                      properties:
-                        id:
-                          type: integer
-                          example: 1
-                        name:
-                          type: string
-                          example: "Charlie"
-                        tag:
-                          type: string
-                          example: "dog"
-            '400':
-              description: Invalid request
+                      type: string
 
