@@ -7,10 +7,6 @@ metadata:
     backstage.io/api-lifecycle: experimental
     backstage.io/api-owner: group:default/team-c
     backstage.io/api-type: openapi
-  links:
-    - url: https://petstore.swagger.io
-      title: Swagger UI
-      icon: swagger
 spec:
   type: openapi
   lifecycle: experimental
@@ -33,5 +29,16 @@ spec:
                   schema:
                     type: array
                     items:
-                      type: string
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 1
+                        name:
+                          type: string
+                          example: "Charlie"
+                        tag:
+                          type: string
+                          example: "dog"
+
 
