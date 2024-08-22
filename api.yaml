@@ -1,84 +1,39 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: my-api
-  description: This is a sample API documentation.
+  name: petstore
+  description: Swagger Petstore API
+  owner: team-c
+  lifecycle: experimental
 spec:
   type: openapi
   lifecycle: experimental
-  owner: team-example
+  owner: team-c
   definition: |
     openapi: 3.0.0
     info:
-      title: My API
-      description: This is a sample API documentation.
+      title: Swagger Petstore
       version: 1.0.0
     servers:
-      - url: https://api.example.com/v1
-        description: Production server
-    components:
-      securitySchemes:
-        oauth2:
-          type: oauth2
-          flows:
-            authorizationCode:
-              authorizationUrl: https://auth.example.com/oauth2/authorize
-              tokenUrl: https://auth.example.com/oauth2/token
-              scopes:
-                read_data: Allows reading data
-                write_data: Allows writing data
+      - url: https://petstore.swagger.io/v1
     paths:
-      /register:
+      /pets:
+        get:
+          summary: List all pets
+          responses:
+            '200':
+              description: A list of pets.
+              content:
+                application/json:
+                  schema:
+                    type: array
+                    items:
+                      type: string
         post:
-          summary: Register a new user
-          operationId: registerUser
-          tags:
-            - User
-          requestBody:
-            description: User details for registration
-            required: true
-            content:
-              application/json:
-                schema:
-                  type: object
-                  properties:
-                    username:
-                      type: string
-                    email:
-                      type: string
-                    password:
-                      type: string
-                  required:
-                    - username
-                    - email
-                    - password
+          summary: Create a pet
           responses:
             '201':
-              description: User successfully registered
-              content:
-                application/json:
-                  schema:
-                    type: object
-                    properties:
-                      id:
-                        type: string
-                      username:
-                        type: string
-                      email:
-                        type: string
-            '400':
-              description: Invalid input
-              content:
-                application/json:
-                  schema:
-                    type: object
-                    properties:
-                      error:
-                        type: string
-          security:
-            - oauth2:
-                - read_data
-                - write_data
+              description: The created pet.
 
          
 
