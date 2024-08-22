@@ -15,3 +15,96 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: team-c
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Swagger Petstore
+      description: This is a sample server for a pet store.
+      version: 1.0.0
+    servers:
+      - url: http://petstore.swagger.io/v1
+    paths:
+      /pets:
+        get:
+          summary: List all pets
+          operationId: listPets
+          tags:
+            - pets
+          responses:
+            '200':
+              description: A paged array of pets
+              content:
+                application/json:
+                  schema:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 1
+                        name:
+                          type: string
+                          example: "Charlie"
+                        tag:
+                          type: string
+                          example: "dog"
+            '400':
+              description: Invalid request
+        post:
+          summary: Create a pet
+          operationId: createPets
+          tags:
+            - pets
+          requestBody:
+            description: Pet to add to the store
+            required: true
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                      example: "Max"
+                    tag:
+                      type: string
+                      example: "dog"
+          responses:
+            '201':
+              description: Pet created successfully
+            '400':
+              description: Invalid input
+      /pets/{petId}:
+        get:
+          summary: Get a pet by ID
+          operationId: getPetById
+          tags:
+            - pets
+          parameters:
+            - name: petId
+              in: path
+              required: true
+              description: The ID of the pet to retrieve
+              schema:
+                type: integer
+                example: 1
+          responses:
+            '200':
+              description: Pet details by ID
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 1
+                      name:
+                        type: string
+                        example: "Charlie"
+                      tag:
+                        type: string
+                        example: "dog"
+            '404':
+              description: Pet not found
