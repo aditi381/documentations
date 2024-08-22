@@ -1,8 +1,24 @@
-openapi: 3.0.1
+openapi: 3.0.0
 info:
-  title: User Registration API
-  description: API to register a new user
-  version: "1.0.0"
+  title: My API
+  description: This is a sample API documentation.
+  version: 1.0.0
+servers:
+  - url: https://api.example.com/v1
+    description: Production server
+
+components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          authorizationUrl: https://auth.example.com/oauth2/authorize
+          tokenUrl: https://auth.example.com/oauth2/token
+          scopes:
+            read_data: Allows reading data
+            write_data: Allows writing data
+
 paths:
   /register:
     post:
@@ -11,7 +27,7 @@ paths:
       tags:
         - User
       requestBody:
-        description: User registration details
+        description: User details for registration
         required: true
         content:
           application/json:
@@ -20,28 +36,28 @@ paths:
               properties:
                 username:
                   type: string
-                  example: johndoe
-                password:
-                  type: string
-                  example: password123
                 email:
                   type: string
-                  example: johndoe@example.com
+                password:
+                  type: string
               required:
                 - username
-                - password
                 - email
+                - password
       responses:
         '201':
-          description: User registered successfully
+          description: User successfully registered
           content:
             application/json:
               schema:
                 type: object
                 properties:
-                  message:
+                  id:
                     type: string
-                    example: User registered successfully
+                  username:
+                    type: string
+                  email:
+                    type: string
         '400':
           description: Invalid input
           content:
@@ -51,14 +67,8 @@ paths:
                 properties:
                   error:
                     type: string
-                    example: Bad Request
-        '409':
-          description: User already exists
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  error:
-                    type: string
-                    example: Conflict
+      security:
+        - oauth2:
+            - read_data
+            - write_data
+
