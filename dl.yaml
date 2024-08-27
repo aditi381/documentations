@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: harness
+  annotations:
+    newrelic.com/dashboard-guid: value
+spec:
+  type: service
+  owner: team-a
