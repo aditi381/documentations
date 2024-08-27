@@ -1,9 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: harness
+  name: harnession
   annotations:
     newrelic.com/dashboard-guid: value
 spec:
   type: service
+  lifecycle: development  # Add this line
   owner: team-a
