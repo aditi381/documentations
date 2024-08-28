@@ -4,10 +4,6 @@ metadata:
   name: petstore
   description: Swagger Petstore API
   namespace: default
-  links:
-    - url: 'https://petstore.swagger.io/v2/swagger.json'
-      title: 'View Swagger'
-      icon: 'swagger'  # Optional: use an icon if you have one available
 spec:
   type: openapi
   lifecycle: experimental
