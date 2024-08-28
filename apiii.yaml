@@ -3,9 +3,7 @@ kind: API
 metadata:
   name: petstore
   description: Swagger Petstore API
-  tags:
-    - swagger
-    - openapi
+  namespace: default
 spec:
   type: openapi
   lifecycle: experimental
