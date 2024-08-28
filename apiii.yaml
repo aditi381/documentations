@@ -8,6 +8,7 @@ metadata:
     - openapi
 spec:
   type: openapi
-  lifecycle: production
-  owner: team-a
+  lifecycle: experimental
+  owner: team-c
   definition: 'https://petstore.swagger.io/v2/swagger.json'
+
