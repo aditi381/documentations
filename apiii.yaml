@@ -4,6 +4,10 @@ metadata:
   name: petstore
   description: Swagger Petstore API
   namespace: default
+  links:
+    - url: 'http://localhost:3000/api-overview' # Ensure this URL matches the route you defined
+      title: 'View Swagger'
+      icon: 'swagger'
 spec:
   type: openapi
   lifecycle: experimental
