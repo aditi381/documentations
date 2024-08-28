@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-awesome-api
+  description: My Awesome API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-a
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: My Awesome API
+      version: 1.0.0
+    paths:
+      /ping:
+        get:
+          summary: Checks if the API is running
+          responses:
+            '200':
+              description: OK
